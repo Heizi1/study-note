@@ -10,7 +10,7 @@ export default defineConfig({
   base: '/study-note/',
 
   // 网页地址栏 icon
-  head: [["link", { rel: "icon", href: "/logo.svg" }]],
+  head: [["link", { rel: "icon", href: "/study-note/logo.svg" }]],
 
   themeConfig: {
 
