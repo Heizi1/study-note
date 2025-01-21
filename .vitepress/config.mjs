@@ -18,6 +18,7 @@ export default defineConfig({
     // 页面右上角跳转
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'IDEA', link: '/docs/idea/IDEA相关' },
       { text: '后端', link: '/markdown-examples' }
     ],
 
@@ -43,7 +44,13 @@ export default defineConfig({
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
-      }
+      },
+      {
+        text: 'IDEA',
+        items: [
+          { text: 'IDEA相关', link: '/docs/idea/IDEA相关' },
+        ]
+      },
     ],
 
     // github的跳转链接
