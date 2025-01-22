@@ -14,6 +14,11 @@ export default defineConfig({
 
   themeConfig: {
 
+    // 文章目录显示层级
+    outline: {
+      level: 'deep'
+    },
+
     // https://vitepress.dev/reference/default-theme-config
     // 页面右上角跳转
     nav: [
