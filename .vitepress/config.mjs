@@ -32,6 +32,12 @@ export default defineConfig({
     // 左侧导航栏
     sidebar: [
       {
+        text: 'IDEA',
+        items: [
+          { text: 'IDEA相关', link: '/docs/idea/01-IDEA相关' },
+        ]
+      },
+      {
         text: '前端',
         items: [
           { text: '使用NVM安装Node', link: '/docs/web/01-使用NVM安装Node' },
@@ -41,19 +47,6 @@ export default defineConfig({
         text: '后端',
         items: [
           { text: 'PostgreSQL', link: '/docs/PostgreSQL/01-基础' },
-        ]
-      },
-      {
-        text: '运维',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      },
-      {
-        text: 'IDEA',
-        items: [
-          { text: 'IDEA相关', link: '/docs/idea/01-IDEA相关' },
         ]
       },
       {

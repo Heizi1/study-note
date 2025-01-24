@@ -8,11 +8,11 @@ hero:
   tagline: 记录日常、提高水平
   actions:
     - theme: brand
-      text: Markdown示例
-      link: /markdown-examples
+      text: 后端
+      link: /docs/web/01-使用NVM安装Node
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 前端
+      link: /docs/PostgreSQL/01-基础
   # 主页右侧的背景图
   image:
     src: /logo-dark.png
