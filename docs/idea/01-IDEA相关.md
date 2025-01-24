@@ -48,9 +48,9 @@
 
 上面这些是比较常用的一些快捷键，如果没有找到自己想用的快捷键可以在 IDEA 中按下`ctrl + shift + A`，输入 keyboard 点击下图标记的菜单，可以看到有一个 IDEA 提供的 pdf 格式的快捷键大全
 
-![](./images/IDEA相关/1722928541348-4c9e77da-b6b2-4f90-b5ec-b6e926624d7f.png)
+![](images/01-IDEA相关/1722928541348-4c9e77da-b6b2-4f90-b5ec-b6e926624d7f.png)
 
-![](./images/IDEA相关/1722928633374-72a97f46-d916-4fa1-a80f-ea19ec1db864.png)
+![](images/01-IDEA相关/1722928633374-72a97f46-d916-4fa1-a80f-ea19ec1db864.png)
 
 ## 好用插件
 
@@ -80,7 +80,7 @@
 
 有时候我们修改了一个文件，然后清空后又重新写了一些东西，这时候想着恢复到清空前，就可以使用这个便捷操作啦。使用方法也非常简单，直接在文件中点击右键选中`show history...`，如下图所示：
 
-![](./images/IDEA相关/1722931437234-873eafc4-6d89-45ef-a61c-1134aa3d4f61.png)
+![](images/01-IDEA相关/1722931437234-873eafc4-6d89-45ef-a61c-1134aa3d4f61.png)
 
 ### 比对
 
@@ -88,9 +88,9 @@
 
 有时候我们需要知道项目中两个文件到底哪块不一样，这时候就可以在左侧 Project 栏中使用`ctrl + a`同时选中这两个文件，然后点击右键选择`compare files`，如下图所示：
 
-![](./images/IDEA相关/1722932186885-06bb2235-641f-4e5a-b0d9-ec385f3fa406.png)
+![](images/01-IDEA相关/1722932186885-06bb2235-641f-4e5a-b0d9-ec385f3fa406.png)
 
-![](./images/IDEA相关/1722932256234-436508b4-5f9e-4d43-ae17-d90cd9078b7e.png)
+![](images/01-IDEA相关/1722932256234-436508b4-5f9e-4d43-ae17-d90cd9078b7e.png)
 
 我们也可以点击上面的箭头来选择覆盖哪个文件中不一样的地方。
 
@@ -98,51 +98,51 @@
 
 有时候这两个文件不在同一个项目中，那也非常简单，只需要选中一个点击右键，选择`compare with`，然后在文件中指定另一个文件的位置即可，具体如下图所示：
 
-![](./images/IDEA相关/1722932579027-d7e00dcf-e5df-4400-af00-1bc34831eea5.png)
+![](images/01-IDEA相关/1722932579027-d7e00dcf-e5df-4400-af00-1bc34831eea5.png)
 
-![](./images/IDEA相关/1722932608379-c8dd2b00-4ff2-4064-88d9-11b371a79974.png)
+![](images/01-IDEA相关/1722932608379-c8dd2b00-4ff2-4064-88d9-11b371a79974.png)
 
 #### 剪贴板比对
 
 有时候我们只想和我们复制的内容做比对，这种也很简单。比如我们要比对一串字符串是否一致，先复制字符串A，然后在 IDEA 中选中字符串B，然后右键`compare with clipboard`即可。
 
-![](./images/IDEA相关/1722932975997-558e278d-62d3-4f2e-9457-ae9677a2f4d0.png)
+![](images/01-IDEA相关/1722932975997-558e278d-62d3-4f2e-9457-ae9677a2f4d0.png)
 
 像这种我们只知道这两字符串确实不一样，但是我想知道哪个字符不一样，该怎么办呢？
 
 其实也很简单，我就直接上图了。
 
-![](./images/IDEA相关/1722933091851-45adedfe-f798-42bf-a872-0949a2f58f96.png)
+![](images/01-IDEA相关/1722933091851-45adedfe-f798-42bf-a872-0949a2f58f96.png)
 
-![](./images/IDEA相关/1722933132373-877dfb4d-d3a5-42c7-977e-7772ccf0a019.png)
+![](images/01-IDEA相关/1722933132373-877dfb4d-d3a5-42c7-977e-7772ccf0a019.png)
 
 ## 多个Spring应用控制台侧列展示
 
 正常我们启动多个Spring应用时，控制台展示如下：
 
-![](./images/IDEA相关/1728869342155-15d45167-ee1b-4f7f-9804-aa1690d30536.png)
+![](images/01-IDEA相关/1728869342155-15d45167-ee1b-4f7f-9804-aa1690d30536.png)
 
 这样切换多个应用比较麻烦，且不知道端口号。
 
 可以点击 Services 中设置，Services位置如下：
 
-![](./images/IDEA相关/1728869524287-5deaef6a-9cb7-4492-b353-6e88eeb39425.png)
+![](images/01-IDEA相关/1728869524287-5deaef6a-9cb7-4492-b353-6e88eeb39425.png)
 
 点击 `Tool Windows`，选择右侧展开列中的`Services`（由于截图问题，这里截图不完整）。
 
-![](./images/IDEA相关/1728869720433-dd46ba32-920e-46bf-a19a-905c92c856fa.png)
+![](images/01-IDEA相关/1728869720433-dd46ba32-920e-46bf-a19a-905c92c856fa.png)
 
 找到`SpringBoot`列添加即可。
 
-![](./images/IDEA相关/1728869763637-0dafc3be-042f-47dd-a231-293df7fa2e40.png)
+![](images/01-IDEA相关/1728869763637-0dafc3be-042f-47dd-a231-293df7fa2e40.png)
 
 最终效果如下：
 
-![](./images/IDEA相关/1728869831625-b205f6ca-d9e7-480f-810a-8e0013ee795d.png)
+![](images/01-IDEA相关/1728869831625-b205f6ca-d9e7-480f-810a-8e0013ee795d.png)
 
 ## 使用Material-ui卸载后，git状态颜色无法恢复。
 
-![](./images/IDEA相关/1730964126517-5bdecd5c-7cad-47e7-968e-f3ef9eda2f87.png)
+![](images/01-IDEA相关/1730964126517-5bdecd5c-7cad-47e7-968e-f3ef9eda2f87.png)
 
 一个一个Restore。
 

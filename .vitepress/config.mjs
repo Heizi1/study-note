@@ -24,7 +24,9 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'IDEA', link: '/docs/idea/IDEA相关' },
-      { text: '后端', link: '/markdown-examples' }
+      { text: '后端', link: '/docs/PostgreSQL/01-基础' },
+      { text: '前端', link: '/docs/web/01-使用NVM安装Node' },
+      { text: '运维', link: '/docs/DevOps/Linux/01-安装虚拟机' }
     ],
 
     // 左侧导航栏
@@ -32,15 +34,13 @@ export default defineConfig({
       {
         text: '前端',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '使用NVM安装Node', link: '/docs/web/01-使用NVM安装Node' },
         ]
       },
       {
         text: '后端',
         items: [
-          { text: 'PostgreSQL', link: '/docs/PostgreSQL/基础' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'PostgreSQL', link: '/docs/PostgreSQL/01-基础' },
         ]
       },
       {
@@ -53,7 +53,18 @@ export default defineConfig({
       {
         text: 'IDEA',
         items: [
-          { text: 'IDEA相关', link: '/docs/idea/IDEA相关' },
+          { text: 'IDEA相关', link: '/docs/idea/01-IDEA相关' },
+        ]
+      },
+      {
+        text: '运维',
+        items: [
+          {
+            text: 'Linux',
+            items: [
+                { text: 'Linux相关', link: '/docs/DevOps/Linux/01-安装虚拟机' },
+            ]
+          },
         ]
       },
     ],
