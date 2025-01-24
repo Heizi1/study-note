@@ -62,7 +62,7 @@ export default defineConfig({
           {
             text: 'Linux',
             items: [
-                { text: 'Linux相关', link: '/docs/DevOps/Linux/01-安装虚拟机' },
+                { text: '安装虚拟机', link: '/docs/DevOps/Linux/01-安装虚拟机' },
             ]
           },
         ]
